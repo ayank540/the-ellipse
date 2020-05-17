@@ -203,7 +203,7 @@ main .blog{
     /* background-position: right; */
     height: 80vh;
     width: 100%;
-    background-size: 100%;
+    background-size: fill;
     color: var(--white)
 }
 
@@ -499,6 +499,11 @@ footer.footer .move-up span:hover{
 
     .site-content .post-content > .post-image .post-info{
         display: none;
+    }
+
+
+    .site-content .post-content > .post-image img{
+        height: auto;
     }
 
     footer.footer .container > div {
