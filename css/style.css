@@ -479,6 +479,10 @@ footer.footer .move-up span:hover{
         display: initial;
     }
 
+    .site-content .post-content > .post-image img{
+        height: auto;
+    }
+
     main .site-content{
         grid-template-columns: 100%;
     }
