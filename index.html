@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Something</title>
+    <title>The Ellipse</title>
 
     <!-- Custom style -->
     <link rel="stylesheet" href="./css/style.css"/>
@@ -20,7 +20,7 @@
     <nav class="nav">
         <div class="nav-menu flex-row">
             <div class="nav-brand">
-                <a href="#" class="text-gray">MAK</a>
+                <a href="#" class="text-gray">The Ellipse</a>
             </div>
             <div class="toggle-collapse">
                 <div class="toggle-icons">
@@ -30,7 +30,7 @@
             <div>
                 <ul class="nav-items">
                     <li class="nav-link">
-                        <a href="#">Home</a>
+                        <a href="https://ayank540.github.io/">Home</a>
                     </li>
                     <li class="nav-link">
                         <a href="#">Category</a>
@@ -48,9 +48,9 @@
             </div>
             <div class="social text-gray">
                 <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.instagram.com/theellipse/"><i class="fab fa-instagram"></i></a>
                 <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="mailto:theellipse02@gmail.com"><i class="far fa-envelope"></i></a>
             </div>
         </div>
     </nav>
@@ -64,9 +64,9 @@
         <!----------------------- Site Title ---------------------------->
         <section class="site-title">
             <div class="site-background">
-                <h3>Information</h3>
-                <h1>Seek the truth</h1>
-                <button class="btn">Explore</button>
+                <h1>The Ellipse</h1>
+                <h3>Do not pay for paid news</h3>
+            <button class="btn btn-explore">Explore</button>
             </div>
         </section>
         <!-----------x----------- Site Title --------------x------------->
@@ -74,39 +74,31 @@
         <!----------------------- Blog Carousel --------------------------->
 
         <section>
-            <div class="blog">
+            <div id="mainDiv" class="blog">
                 <div class="container">
                     <div class="owl-carousel owl-theme blog-post">
                         <div class="blog-content">
-                            <img src="./assets/Blog-post/post-1.jpg" alt="post-1">
+                            <!-- <img src="./assets/Blog-post/post-1.jpg" alt="post-1"> -->
                             <div class="blog-title">
-                                <h3>London fashion week's continued the evolution.</h3>
-                                <button class="btn btn-blog">Fashioning</button>
-                                <span>2 minutes</span>
+                                <h3>LOCKDOWN IN INDIA: A CURSE FOR MIGRANT LABOURERS</h3>
+                                <button class="btn btn-blog btn-post1" onclick="window.location.hash='#post1'">Covid-19</button>
+                                <span>1 Day</span>
                             </div>
                         </div>
                         <div class="blog-content">
-                            <img src="./assets/Blog-post/post-2.jpg" alt="post-2">
+                            <!-- <img src="./assets/Blog-post/post-2.jpg" alt="post-2"> -->
                             <div class="blog-title">
-                                <h3>London fashion week's continued the evolution.</h3>
-                                <button class="btn btn-blog">Fashioning</button>
-                                <span>2 minutes</span>
+                                <h3>Fourteen migrant workers CRUSHED under train!</h3>
+                                <button class="btn btn-blog btn-post2" onclick="window.location.hash='#post2'">Latest</button>
+                                <span>1 Day</span>
                             </div>
                         </div>
                         <div class="blog-content">
-                            <img src="./assets/Blog-post/post-3.jpg" alt="post-3">
+                            <!-- <img src="./assets/Blog-post/post-3.jpg" alt="post-3"> -->
                             <div class="blog-title">
-                                <h3>London fashion week's continued the evolution.</h3>
-                                <button class="btn btn-blog">Fashioning</button>
-                                <span>2 minutes</span>
-                            </div>
-                        </div>
-                        <div class="blog-content">
-                            <img src="./assets/Blog-post/post-4.png" alt="post-4">
-                            <div class="blog-title">
-                                <h3>London fashion week's continued the evolution.</h3>
-                                <button class="btn btn-blog">Fashioning</button>
-                                <span>2 minutes</span>
+                                <h3>One more mishap, 24 migrant workers died and 36 got injured!! </h3>
+                                <button class="btn btn-blog btn-post3" onclick="window.location.hash='#post3'">Migrant Workers</button>
+                                <span>1 Day</span>
                             </div>
                         </div>
                     </div>
@@ -127,84 +119,60 @@
             <div class="site-content">
                 <div class="posts">
                     <div class="post-content">
-                        <div class="post-image">
+                        <div id="post1" class="post-image">
                             <div>
-                                <img src="./assets/Blog-post/blog1.png" class="img" alt="blog1">
+                                <img src="./assets/images/india-covid-migration-16-05-20.jpg" class="img" height="480vh" alt="blog1">
                             </div>
                             <div class="post-info flex-row">
                                 <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Admin</span>
                                 <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;May 16, 2020</span>
-                                <span>&nbsp;&nbsp;2 Comments</span>
+                                <span>&nbsp;&nbsp;Covid-19</span>
                             </div>
                         </div>
                         <div class="post-title">
-                            <a href="#">What are we doing here no one knows.</a>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae asperiores veniam earum sed voluptatum praesentium pariatur, 
-                               alias suscipit totam quas ex. Laborum, recusandae quidem consequuntur quibusdam labore fugit ipsa amet? 
-                               In provident nostrum, adipisci sed rem doloribus id blanditiis praesentium?
+                            <a href="./further/covid-16-05-20.html">LOCKDOWN IN INDIA: A CURSE FOR MIGRANT LABOURERS</a>
+                            <p>Its been 52 days since our prime minister narendra modi announced complete lockdown in  india . The migrant labourers had no idea at that time what time had stored in their fate and what they’ll be going to suffer.
+                                The daily wage workers working far from their homes and running their families became jobless over a night. No money, no food , only they had in their mind was the hope of everything becoming normal soon. But things were going to be worsen ahead.                                
+                            </p>
+                            <a href="./further/covid-16-05-20.html"><button class="btn post-btn">Read more&nbsp;<i class="fas fa-arrow-right"></i></button></a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="post-content">
+                        <div id="post2" class="post-image">
+                            <div>
+                                <img src="./assets/images/1588927816_aurangabad1.jpg" class="img" height="480vh" alt="migrants crushed">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Admin</span>
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;May 16, 2020</span>
+                                <span>&nbsp;&nbsp;Latest</span>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">Fourteen migrant workers CRUSHED under train!</a>
+                            <p>Sixteen migrant workers were mowed down by an empty freight train in Maharashtra’s Aurangabad district in the early hours of Friday. While 14 of them died on the spot, two of them later succumbed to injuries.
+                                Prime Minister Narendra Modi tweeted, “Extremely anguished by the loss of lives due to the rail accident in Aurangabad, Maharashtra. Have spoken to Railway Minister Piyush Goyal and he is closely monitoring the situation. All possible assistance required is being provided.”
                             </p>
                             <button class="btn post-btn">Read more&nbsp;<i class="fas fa-arrow-right"></i></button>
                         </div>
                     </div>
                     <hr>
                     <div class="post-content">
-                        <div class="post-image">
+                        <div id="post3" class="post-image">
                             <div>
-                                <img src="./assets/Blog-post/blog2.png" class="img" alt="blog2">
+                                <img src="./assets/images/child_drinking_water.jpg" class="img" alt="child drinking water">
                             </div>
                             <div class="post-info flex-row">
                                 <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Admin</span>
                                 <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;May 16, 2020</span>
-                                <span>&nbsp;&nbsp;2 Comments</span>
+                                <span>&nbsp;&nbsp;Migrant Workers</span>
                             </div>
                         </div>
                         <div class="post-title">
-                            <a href="#">What are we doing here no one knows.</a>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae asperiores veniam earum sed voluptatum praesentium pariatur, 
-                               alias suscipit totam quas ex. Laborum, recusandae quidem consequuntur quibusdam labore fugit ipsa amet? 
-                               In provident nostrum, adipisci sed rem doloribus id blanditiis praesentium?
-                            </p>
-                            <button class="btn post-btn">Read more&nbsp;<i class="fas fa-arrow-right"></i></button>
-                        </div>
-                    </div>
-                    <hr>
-                    <div class="post-content">
-                        <div class="post-image">
-                            <div>
-                                <img src="./assets/Blog-post/blog3.png" class="img" alt="blog3">
-                            </div>
-                            <div class="post-info flex-row">
-                                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Admin</span>
-                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;May 16, 2020</span>
-                                <span>&nbsp;&nbsp;2 Comments</span>
-                            </div>
-                        </div>
-                        <div class="post-title">
-                            <a href="#">What are we doing here no one knows.</a>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae asperiores veniam earum sed voluptatum praesentium pariatur, 
-                               alias suscipit totam quas ex. Laborum, recusandae quidem consequuntur quibusdam labore fugit ipsa amet? 
-                               In provident nostrum, adipisci sed rem doloribus id blanditiis praesentium?
-                            </p>
-                            <button class="btn post-btn">Read more&nbsp;<i class="fas fa-arrow-right"></i></button>
-                        </div>
-                    </div>
-                    <hr>
-                    <div class="post-content">
-                        <div class="post-image">
-                            <div>
-                                <img src="./assets/Blog-post/blog4.png" class="img" alt="blog4">
-                            </div>
-                            <div class="post-info flex-row">
-                                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Admin</span>
-                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;May 16, 2020</span>
-                                <span>&nbsp;&nbsp;2 Comments</span>
-                            </div>
-                        </div>
-                        <div class="post-title">
-                            <a href="#">What are we doing here no one knows.</a>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae asperiores veniam earum sed voluptatum praesentium pariatur, 
-                               alias suscipit totam quas ex. Laborum, recusandae quidem consequuntur quibusdam labore fugit ipsa amet? 
-                               In provident nostrum, adipisci sed rem doloribus id blanditiis praesentium?
+                            <a href="#">One more mishap!!</a>
+                            <p>Another news is from Auraiya district, UP where 24 migrant workers died and 36 got injured when a trailer rammed into stationary truck.
+                                Several migrant workers have hit the streets, in an attempt to return home, ever since the nationwide lockdown in the wake of the coronavirus pandemic has come into force.                                
                             </p>
                             <button class="btn post-btn">Read more&nbsp;<i class="fas fa-arrow-right"></i></button>
                         </div>
@@ -255,30 +223,30 @@
             <div class="instagram">
                 <h2>Instagram</h2>
                 <div class="flex-row">
-                    <img src="./assets/instagram/thumb-card3.png" alt="insta1">
-                    <img src="./assets/instagram/thumb-card4.png" alt="insta2">
-                    <img src="./assets/instagram/thumb-card5.png" alt="insta3">
+                    <img src="./assets/instagram/97259383_2612362875704765_7542624872499713179_n.jpg" alt="insta1">
+                    <!-- <img src="./assets/instagram/thumb-card4.png" alt="insta2">
+                    <img src="./assets/instagram/thumb-card5.png" alt="insta3"> -->
                 </div>
-                <div class="flex-row">
+                <!-- <div class="flex-row">
                     <img src="./assets/instagram/thumb-card6.png" alt="insta4">
                     <img src="./assets/instagram/thumb-card7.png" alt="insta5">
                     <img src="./assets/instagram/thumb-card8.png" alt="insta6">
-                </div>
+                </div> -->
             </div>
             <div class="follow">
                 <h2>Follow us</h2>
                 <p>Let's be social</p>
                 <div>
-                    <i class="fab fa-facebook"></i>
-                    <i class="fab fa-instagram"></i>
-                    <i class="fab fa-twitter"></i>
-                    <i class="fab fa-youtube"></i>
+                    <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/theellipse/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter" target="_blank"></i></a>
+                    <a href="mailto:theellipse02@gmail.com" target="_blank"><i class="far fa-envelope"></i></a>
                 </div>
             </div>
         </div>
         <div class="rights flex-row">
             <h4 class="text-gray">
-                Copyright ©2020 All rights reserved | Made by <a href="#">Rahul</a> and <a href="#">Ayan</a>
+                Copyright ©2020 All rights reserved | Made by <a href="https://www.instagram.com/theellipse/">The Ellipse team</a>
             </h4>
         </div>
         <div class="move-up">

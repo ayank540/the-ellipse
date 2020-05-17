@@ -23,6 +23,7 @@ html,body{
 
     /* gradient color */
     --sky: -webkit-linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    --carousel-background: -webkit-linear-gradient(0deg, #C8F4FFff, #B3E9FFff, #9FDEFFff, #8AD2FFff, #75C7FFff);
 }
 
 /*------------------ Global classes ------------------*/
@@ -164,7 +165,7 @@ p{
 /* --------------- Site Title ---------------- */
 
 main .site-title{
-    background: url('../assets/Background-image.png');
+    background: url('../assets/Background-image-1.webp');
     background-size: cover;
     height: 110vh;
     display: flex;
@@ -197,12 +198,13 @@ main .site-title .btn:hover{
 /*----------------------- Blog Carousel ---------------------------*/
 
 main .blog{
-    background: url('../assets/Abract01.png');
+    background: url('../assets/blur-abstract-background-4k-l2.jpg');
     background-repeat: no-repeat;
-    background-position: right;
-    height: 100vh;
+    /* background-position: right; */
+    height: 80vh;
     width: 100%;
-    background-size: 65%;
+    background-size: 100%;
+    color: var(--white)
 }
 
 main .blog .blog-post{
@@ -220,6 +222,7 @@ main .blog-post .blog-content{
 
 main .blog-content .blog-title{
     padding: 2rem 0;
+    text-transform: uppercase;
 }
 
 main .blog-content .btn-blog{
@@ -413,6 +416,10 @@ footer.footer .instagram div > img{
 
 footer.footer .follow div i{
     padding: 0 .4rem;
+}
+
+footer.footer .follow div i{
+    color: var(--white);
 }
 
 footer.footer .rights{
