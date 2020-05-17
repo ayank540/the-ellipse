@@ -13,6 +13,7 @@ html,body{
     --Josefin: 'Josefin_Sans',cursive;
     --Lexend: 'LexendDeca',cursive;
     --Livvic: 'Livvic',cursive;
+    --Comfortaa: 'Comfortaa', 'Verdana';
 
     /* theme colors */
     --text-gray: #3f4954;
@@ -309,8 +310,9 @@ main .site-content .post-content > .post-image .post-info span{
 }
 
 main .post-content .post-title a{
-    font-family: var(--Anton);
+    font-family: var(--Comfortaa);
     font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .site-content .post-content .post-title .post-btn{

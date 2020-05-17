@@ -28,3 +28,8 @@
     src:url('../fonts/Livvic/Livvic-Regular.ttf')
 }
 
+/* font-family: Comfortaa */
+@font-face{
+    font-family: Comfortaa;
+    src: url('../fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf')
+}
