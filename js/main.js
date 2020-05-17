@@ -50,16 +50,16 @@ $(document).ready(function(){
     $('.btn-post1').click(function(){
         $('html, body').animate({
             scrollTop: $('#post1').offset().top,
-        },500)
+        },1000)
     });
     $('.btn-post2').click(function(){
         $('html, body').animate({
             scrollTop: $('#post2').offset().top,
-        },500)
+        },100)
     });
     $('.btn-post3').click(function(){
         $('html, body').animate({
             scrollTop: $('#post3').offset().top,
-        },500)
+        },1000)
     });
 });
